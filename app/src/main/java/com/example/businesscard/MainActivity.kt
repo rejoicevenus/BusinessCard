@@ -123,7 +123,7 @@ fun ContactInfo(icon: ImageVector, text: String) {
             modifier = Modifier.size(24.dp)
         )
         Spacer(modifier = Modifier.width(16.dp))
-        Text(text = text, textAlign = TextAlign.Justify, fontSize = 14.sp)
+        Text(text = text, textAlign = TextAlign.Center, fontSize = 14.sp)
     }
 }
 
